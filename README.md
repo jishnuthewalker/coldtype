@@ -44,8 +44,16 @@ The best way to get familiar with Coldtype is to look at and try modifying some 
 
 To get a development environment for Coldtype:
 
+On MacOS
 ```
 python3.11 -m venv venv
 source venv/bin/activate
 pip install -e .[viewer]
 ```
+On Windows
+```
+python3.11 -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -e .[viewer]
+```
+
